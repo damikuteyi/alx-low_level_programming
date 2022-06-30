@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * This is the hello, printf task
- * Return: return 1 after program execution 
+ * Return: return 1 after program execution
  */
 
 int main(void)
