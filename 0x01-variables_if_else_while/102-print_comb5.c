@@ -3,6 +3,7 @@
  * main - print a number pair from 00-99 but no repeats.
  * return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n = '0';
