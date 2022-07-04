@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 /**
  *main - Entry point, prints upper lower char
  *
  *return: 0 for (success)
  */
+
 int main(void)
 {
 	char lower = 'a';
