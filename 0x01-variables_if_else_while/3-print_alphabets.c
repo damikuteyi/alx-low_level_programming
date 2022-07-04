@@ -3,7 +3,7 @@
 /**
  *main - Entry point, prints upper lower char
  *
- *Return - 0 for (success)
+ *return - 0 for (success)
  */
 int main(void)
 {
