@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point, prints upper lower char
- * Return - 0 for (success)
+ *main - Entry point, prints upper lower char
+ *
+ *Return - 0 for (success)
  */
 
 int main(void)
