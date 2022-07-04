@@ -6,8 +6,8 @@
  *Return - 0 for (success)
  */
 
-int main(void)
-{
+int main(void) {
+
 char lower = 'a';
 char upper = 'A';
 
@@ -17,4 +17,5 @@ for ( ; upper <= 'Z'; upper++)
 putchar(upper);
 putchar(10);
 return (0);
+
 }
