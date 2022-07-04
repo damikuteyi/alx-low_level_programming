@@ -18,7 +18,7 @@ int main(void)
 			{
 				for (q = '0'; q <= '9'; q++)
 				{
-					if ((n <p) || (n == p && m < q))
+					if ((n < p) || (n == p && m < q))
 					{
 						putchar(n);
 						putchar(m);
