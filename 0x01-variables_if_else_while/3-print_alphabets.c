@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - Entry point
+ *main - Entry point to print lower upper case
  *
  *Return - 0 for (success)
  */
