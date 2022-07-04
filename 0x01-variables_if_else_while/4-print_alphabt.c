@@ -7,11 +7,11 @@
 int main(void)
 {
 	int alph = 'a';
-	for ( ; alph <= 'z' ; alph++)
-	{
-		if (alph != 'q' && alph != 'e')
-			putchar(alph);
-	}
-	putchar(10);
-	return (0);
+for ( ; alph <= 'z' ; alph++)
+{
+if (alph != 'q' && alph != 'e')
+putchar(alph);
+}
+putchar(10);
+return (0);
 }
