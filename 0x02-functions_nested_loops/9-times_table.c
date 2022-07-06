@@ -7,7 +7,7 @@ void times_table(void)
 {
 int row, column, product;
 
-for (row = 0; column < 10; column++)
+for (column = 0; column < 10; column++)
 {
 for (row = 0; row < 10; row++)
 {
