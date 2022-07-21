@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 
 	if (len == 0)
 		return (1);
-	return (palindrome(s, 0, len -1));
+	return (palindrome(s, 0, len - 1));
 }
 
 /**
@@ -28,7 +28,7 @@ int _strlen(char *s)
 }
 
 /**
- * palindrome - checks if start and end of string matches 
+ * palindrome - checks if start and end of string matches
  * @str: string
  * @st: start of string 0
  * @end: end of string from is_palindrome, from lengthc
@@ -41,6 +41,6 @@ int palindrome(char str[], int st, int end)
 	if (str[st] != str[end])
 		return (0);
 	if (st <= end || st < end + 1)
-		return (palindrome(str, st + 1, end -1));
+		return (palindrome(str, st + 1, end - 1));
 	return (1);
 }
