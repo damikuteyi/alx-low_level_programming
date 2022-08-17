@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * print_listint - print integer from a node
  * @h: linked list
