@@ -1,19 +1,13 @@
 /**
  * print_listint - print integer from a node
- *
  * @h: linked list
- *
  * Return: number of nodes
- *
- */
+*/
 
 size_t print_listint(const listint_t *h)
 
 {
-
 	int num_nodes = 0;
-
-
 
 	while (h != NULL)
 
@@ -28,5 +22,4 @@ size_t print_listint(const listint_t *h)
 	}
 
 	return (num_nodes);
-
 }
