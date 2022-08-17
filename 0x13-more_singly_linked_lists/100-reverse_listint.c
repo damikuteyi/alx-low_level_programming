@@ -14,8 +14,10 @@ listint_t *reverse_listint(listint_t **head)
 
 {
 	listint_t *next, *prev;
+
 	if (head == NULL || *head == NULL)
 		return (NULL);
+
 	/* iterate thorugh list to reverse linking */
 
 	prev = NULL;
